@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntegrateGateway</string>
+    <string name="title_activity_check_out_">CheckOut_Activity</string>
+</resources>

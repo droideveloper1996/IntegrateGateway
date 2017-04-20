@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="scorecard.project.com.integrategateway.CheckOut_Activity"
+    tools:showIn="@layout/activity_check_out_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="First Name"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Last Name"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/house_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="House Number"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/adderess1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="address Line 1"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="address line 2"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pincode"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkOut"
+        android:onClick="makePayment"
+        android:text="Checkout"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"/>
+
+</LinearLayout>
